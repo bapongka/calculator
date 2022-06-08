@@ -212,6 +212,24 @@ input#two:checked ~ .button {
   transform: translate(-50%);
 }
 
+footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  text-align: center;
+  position: fixed;
+  font-family: "Roboto Mono", monospace;
+  color: #071115;
+  font-size: 15px;
+}
+
+footer span {
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
 /* THEME 2 STYLE */
 .theme2 {
   background-image: linear-gradient(to bottom right, rgba(79, 51, 176, 1), rgba(210, 53, 165));
@@ -274,6 +292,15 @@ input#two:checked ~ .button {
   color: #071115;
   border-bottom: 3px solid #89c5b7;
 }
+
+.theme2 footer {
+  color: white;
+}
+
+.theme2 footer span {
+  color: #071115;
+}
+
 /* THEME 2 STYLE END*/
 
 /* THEME 3 STYLE */
@@ -319,25 +346,3 @@ input#two:checked ~ .button {
   color: white;
 }
 /* THEME 3 STYLE END */
-
-footer {
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(255, 255, 255, 0.1);
-  text-align: center;
-  position: fixed;
-  font-family: "Roboto Mono", monospace;
-  color: #071115;
-  font-size: 15px;
-}
-
-footer span {
-  color: white;
-  font-size: 15px;
-}
-
-footer span:hover {
-  cursor: pointer;
-  color: rgb(0, 183, 207);
-}
