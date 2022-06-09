@@ -1,9 +1,12 @@
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
+  transition: all 0.5s;
 }
 
 body {
